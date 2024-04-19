@@ -1,0 +1,70 @@
+body{
+    background-image: linear-gradient(
+        to bottom,
+        yellow,
+        red
+    );
+    height: 100vh;
+    font-family: "San Fransisco",  sans-serif;
+}
+
+.menu1{
+    padding: 10px 20px; 
+    background-color: rgb(0, 174, 255);
+    color: rgba(0, 0, 0, 0.763);
+    outline: 3px solid #000;
+    border-radius: 15px;
+    border-color: rgba(0, 0, 0, 0.763);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu1:hover{
+    background-color: darkblue;
+}
+
+.menu2{
+    padding: 10px 20px; 
+    background-color: rgb(255, 78, 149);
+    color: rgba(0, 0, 0, 0.763);
+    outline: 3px solid #000;
+    border-radius: 15px;
+    border-color: rgba(0, 0, 0, 0.763);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu2:hover{
+    background-color: red;
+}
+
+.menu3{
+    padding: 10px 20px; 
+    background-color: rgba(255, 250, 101, 0.844);
+    color: rgba(0, 0, 0, 0.763);
+    outline: 3px solid #000;
+    border-radius: 15px;
+    border-color: rgba(0, 0, 0, 0.763);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu3:hover{
+     background-color: yellow;
+}
+
+.aboutus{
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.paragraph{
+    padding-top: 80px;
+}

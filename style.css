@@ -1,0 +1,127 @@
+body{
+    height: 100vh;
+    color: white;
+    font-family: "San Francisco", sans-serif;
+    align-items: center;
+}
+
+.menu1{
+    padding: 10px 20px; 
+    background-color: rgb(0, 174, 255);
+    color: rgba(0, 0, 0, 0.763);
+    outline: 3px solid #000;
+    border-radius: 15px;
+    border-color: rgba(0, 0, 0, 0.763);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu1:hover{
+    background-color: darkblue;
+}
+
+.menu2{
+    padding: 10px 20px; 
+    background-color: rgb(255, 78, 149);
+    color: rgba(0, 0, 0, 0.763);
+    outline: 3px solid #000;
+    border-radius: 15px;
+    border-color: rgba(0, 0, 0, 0.763);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu2:hover{
+    background-color: red;
+}
+
+.menu3{
+    padding: 10px 20px; 
+    background-color: rgba(255, 250, 101, 0.844);
+    color: rgba(0, 0, 0, 0.763);
+    outline: 3px solid #000;
+    border-radius: 15px;
+    border-color: rgba(0, 0, 0, 0.763);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu3:hover{
+     background-color: yellow;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+.slogan{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.button{
+    padding: 10px 20px; 
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 25px;
+}
+.container {
+    padding-top: 20px;
+    padding-left: 580px;
+}
+
+.button:hover{
+    background-color: darkred;
+}
+
+
+
+
+.button2{
+    padding: 10px 20px; 
+    background-color: black;
+    color: rgba(0, 102, 255, 0.763);
+    outline: 3px solid #000;
+    border-radius: 25px;
+    border-color: rgba(0, 102, 255, 0.763);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 25px;
+    position: relative;
+    top: -68px;
+}
+.container2{
+    padding-top: 20px;
+    padding-left: 770px;
+}
+
+.button2:hover{
+    color: white;
+    background-color: rgba(0, 102, 255, 0.763);;
+}
+
+body {
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.title1{
+    text-align: center;
+}
